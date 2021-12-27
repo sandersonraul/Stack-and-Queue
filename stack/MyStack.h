@@ -13,7 +13,7 @@ public:
   int size();
   int top();
   void push(int element);
-  void pop();
+  int pop();
   void clear();
   void print(std::ostream &cout = std::cout) const;
 
