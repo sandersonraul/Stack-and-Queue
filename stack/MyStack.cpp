@@ -48,7 +48,7 @@ int MyStack::top()
   return vet[topo];
 }
 
-void MyStack::push(int data)
+void MyStack::push(int element)
 {
   if (isFull())
   {
@@ -56,7 +56,7 @@ void MyStack::push(int data)
   }
   else
   {
-    vet[++topo] = data;
+    vet[++topo] = element;
   }
 }
 
