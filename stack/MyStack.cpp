@@ -60,7 +60,7 @@ void MyStack::push(int element)
   }
 }
 
-void MyStack::pop()
+int MyStack::pop()
 {
   if (isEmpty())
   {
@@ -69,6 +69,7 @@ void MyStack::pop()
   else
   {
     int recovered_value = vet[--topo];
+    return vet[topo];
   }
 }
 
