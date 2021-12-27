@@ -12,7 +12,7 @@ public:
   bool isFull();
   int size();
   int top();
-  void push(int data);
+  void push(int element);
   void pop();
   void clear();
   void print(std::ostream &cout = std::cout) const;
