@@ -40,7 +40,7 @@ bool MyStack::isFull()
 
 int MyStack::size()
 {
-  return this->capacity;
+  return this->topo+1;
 }
 
 int MyStack::top()
